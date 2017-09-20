@@ -1,0 +1,13 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  background-color: #2C2A58;
+  color: white;
+  height: 30vh;
+}
+
+.bg-container{
+  background-color: #32325d;
+}

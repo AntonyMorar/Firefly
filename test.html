@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="superResete.css">
+  <link rel="stylesheet" href="firefly.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Firefly CSS</title>
+</head>
+<body>
+  <header>
+    <div class="fy-container-l">
+      <div class="fy-row fy-row-centerVertical">
+          <div class="">
+            <h1>Firefly CSS</h1>
+            <p>Solución para globalizar css, no intrusivo</p>
+            <p>@antony999k</p>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="containers">
+    <div class="fy-container-l">
+      <h1>Contenedores</h1>
+      <p class="lead">Todo contenido debe ir dentro de un container "fy-container-", hay tres tipos de contenedor</p>
+    </div>
+
+    <div class="fy-container-l">
+      <h2>Contenedor Grande</h2>
+      <p>fy-container-l de 1160px</p>
+    </div>
+
+    <div class="bg-container">
+      <div class="fy-container-m">
+        <h2>Contenedor Mediano</h2>
+        <p>fy-container-m de 1040px</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="row">
+    <div class="fy-container-l">
+      <h1>Filas</h1>
+
+      <h2>Fila Izquierda a derecha (Sin child)</h2>
+      <p>Div padre: fy-row</p>
+      <div class="fy-row" style="background-color:#ccc;  height:100px;">
+        <div style="background-color:#7E85A2;">
+          <h3>hijo Row</h3>
+        </div>
+        <div style="background-color:#02DBA9">
+          <h3>hijo Row 2</h3>
+        </div>
+        <div style="background-color:#7E85A2">
+          <h3>hijo Row 3</h3>
+        </div>
+        <div style="background-color:#02DBA9">
+          <h3>hijo Row 4</h3>
+        </div>
+      </div>
+
+      <h2>Fila Izquierda a derecha (Child)</h2>
+      <p>Div padre: fy-row</p>
+      <p>Div hijo: fy-row-child</p>
+      <div class="fy-row" style="background-color:#ccc;  height:100px;">
+        <div class="fy-row-chid" style="background-color:#7E85A2; padding-left:20px;">
+          <h3>hijo Row</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#02DBA9; padding-left:20px;">
+          <h3>hijo Row 2</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#7E85A2; padding-left:20px;">
+          <h3>hijo Row 3</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#02DBA9; padding-left:20px;">
+          <h3>hijo Row 4</h3>
+        </div>
+      </div>
+
+      <h2>Fila arriba a abajo (Sin child)</h2>
+      <p>Div padre: fy-row</p>
+      <div class="fy-rowVertical" style="background-color:#ccc;  height:200px;">
+        <div style="background-color:#7E85A2;">
+          <h3>hijo Row</h3>
+        </div>
+        <div style="background-color:#02DBA9">
+          <h3>hijo Row 2</h3>
+        </div>
+        <div style="background-color:#7E85A2">
+          <h3>hijo Row 3</h3>
+        </div>
+        <div style="background-color:#02DBA9">
+          <h3>hijo Row 4</h3>
+        </div>
+      </div>
+
+      <h2>Fila arriba a abajo (Child)</h2>
+      <p>Div padre: fy-row</p>
+      <p>Div hijo: fy-row-child</p>
+      <div class="fy-rowVertical" style="background-color:#ccc;  height:200px;">
+        <div class="fy-row-chid" style="background-color:#7E85A2;">
+          <h3>hijo Row</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#02DBA9">
+          <h3>hijo Row 2</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#7E85A2">
+          <h3>hijo Row 3</h3>
+        </div>
+        <div class="fy-row-chid" style="background-color:#02DBA9">
+          <h3>hijo Row 4</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>

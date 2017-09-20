@@ -1,0 +1,174 @@
+/*=============================================================
+firefly.css v0.0.0 Beta1.0.0
+Author: @Antony999k
+MIT License
+=============================================================*/
+
+/* Editable Master
+---------------------------------------------------------------*/
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Lato, "sans-serif";
+  color: #262626;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: medium;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 14px;
+}
+
+h4{
+  font-size: 12px;
+}
+
+p{
+  font-size: 14px;
+}
+
+a{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+span{
+  font-size: 14px;
+  color: rgba(0,0,0,0.3);
+}
+
+input{
+  font-size: 14px;
+}
+
+button{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+  font-size: 14px;
+}
+:-ms-input-placeholder{
+  font-size: 14px;
+}
+::-moz-placeholder{
+  font-size: 14px;
+}
+input:-moz-placeholder {
+   font-size: 14px;
+}
+
+a, button, button i{
+  color: #4c4c4c;
+  font-weight: 500;
+}
+
+a:hover{
+  transition-duration: 0.1s;
+  color: rgb(53,127,204);
+  text-decoration: underline;
+}
+
+.lead{
+  font-weight: 200;
+  font-size: 24px;
+}
+
+
+/* Containers
+---------------------------------------------------------------*/
+.fy-container-xl,
+.fy-container-l,
+.fy-container-m,
+.fy-container-s{
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.fy-container-xl{
+  max-width: 1300px;
+}
+
+.fy-container-l{
+  max-width: 1160px;
+}
+
+.fy-container-m{
+  max-width: 1040px;
+}
+
+.fy-container-s{
+}
+
+
+/* Rows & Columns
+---------------------------------------------------------------*/
+.fy-row,
+.fy-rowVertical{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  justify-content:flex-start;
+  height: 100%;
+}
+
+.fy-row{
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.fy-rowVertical{
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.fy-row-chid{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+/* Accommodating elements */
+.fy-row-centerVertical{
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.fy-row-centerHorizontal{
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.fy-row-centerMid{
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
